@@ -1,0 +1,97 @@
+form{
+    width: 25%;
+    height: 60vh;
+    border: 1px solid black;
+    margin-left: 30rem;
+    margin-top: 6rem;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}   
+h2{
+   margin-left: 6rem;
+   margin-top: 2rem;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 92%;
+    line-height: 6vh;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 0.3rem;
+    outline: none;
+}
+::placeholder{  
+    position: absolute;
+    top: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    width: 64%;
+    height: 8vh;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    background-color: #b86ac0;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+body{
+    background-color: #9d52ec;
+}
+@media screen and (max-width:767px){
+    form{
+        width: 90%;
+        height: 60vh;
+        border: 1px solid black;
+        margin-left: 0.4em;
+        margin-top: 6rem;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+    }   
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    form{
+        width: 65%;
+        height: 60vh;
+        border: 1px solid black;
+        margin-left: 6em;
+        margin-top: 9rem;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+    }   
+}
+@media screen and (min-width:1024px){
+    form{
+        width: 30%;
+        height: 62vh;
+        border: 1px solid black;
+        margin-left: 23rem;
+        margin-top: 6rem;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+    }   
+} 
+@media screen and (min-width:1280px){
+    form{
+        width: 25%;
+        height: 60vh;
+        border: 1px solid black;
+        margin-left: 30rem;
+        margin-top: 6rem;
+        padding: 15px;
+        background-color: white;
+        border-radius: 20px;
+    }  
+}
+
